@@ -76,16 +76,12 @@ function colors(color) {
   switch(color){
     case "blue":
       return "This is blue";
-      break;
     case "red":
       return "This is red";
-      break;
     case "green":
       return "This is green";
-      break;
     case "orange":
       return "This is orange";
-      break;
       default:
       return "Color not found"
     }   
@@ -218,7 +214,7 @@ function tablaDelSeis(){
     return tabla;  
 }
 
-
+console.log(tablaDelSeis());
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
@@ -242,6 +238,7 @@ function doWhile(numero) {
   }while(i < 8)
    return numero;
 }
+
 
 
 // No modificar nada debajo de esta línea

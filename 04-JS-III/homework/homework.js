@@ -3,7 +3,12 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  
+
 }
+// console.log(devolverPrimerElemento(1))
+
+
 
 
 function devolverUltimoElemento(array) {
